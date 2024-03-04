@@ -1,0 +1,52 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.user-details {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.user-details h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.user-details p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.birthday-message {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.birthday-message p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.birthday-message p:last-child {
+    margin-bottom: 0;
+}
+
+.birthday-message p.special {
+    color: #007bff;
+    font-weight: bold;
+}

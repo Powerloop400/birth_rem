@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="lol.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <div class="user-details">
+        <h1>Welcome, <%= username %>!</h1>
+        <p>Email: <%= email %></p>
+        <p>Date of Birth: <%= dob %></p>
+    </div>
+    <div class="birthday-message">
+        <% if (isBirthday) { %>
+            <p>Happy Birthday, <%= username %>!</p>
+            <p>Please check your email for a special birthday message.</p>
+        <% } else { %>
+            <p>Waiting for your birthday...</p>
+        <% } %>
+    </div>
+</body>
+</html>
